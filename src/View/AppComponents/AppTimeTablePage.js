@@ -167,7 +167,7 @@ function AppTimeTablePage() {
     <IconButton edge="end" aria-label="Comments"
       onClick={()=>{
         if(state.power){
-          setState({ ...state, power: false, point: 0})
+          setState({ ...state, power: false})
         } else {
           setState({ ...state, power: true})
         }

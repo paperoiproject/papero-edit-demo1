@@ -89,6 +89,11 @@ function AppDisplayScenarioPage() {
            emptyDataSourceMessage: 'No records to display',
            filterRow: {
                filterTooltip: 'Filter'
+           },
+           editRow: {
+             deleteText: "本当に削除しますか？",
+             saveTooltip: "削除",
+             cancelTooltip:"キャンセル"
            }
        }
      }}

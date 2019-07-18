@@ -72,6 +72,25 @@ class AppEditScenarioPage extends React.Component {
         options={{
           pageSize: this.props.data.length
         }}
+        localization={{
+         toolbar: {
+             nRowsSelected: '{0} row(s) selected'
+         },
+         header: {
+             actions: '動作'
+         },
+         body: {
+             emptyDataSourceMessage: 'No records to display',
+             filterRow: {
+                 filterTooltip: 'Filter'
+             },
+             editRow: {
+               deleteText: "本当に削除しますか？",
+               saveTooltip: "削除",
+               cancelTooltip:"キャンセル"
+             }
+         }
+        }}
         editable={{
           onRowAdd: newData =>
             new Promise(resolve => {

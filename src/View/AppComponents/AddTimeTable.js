@@ -76,7 +76,7 @@ function AddTimeTable(props) {
            emptyDataSourceMessage: 'No records to display',
            filterRow: {
                filterTooltip: 'Filter'
-           }
+           },
        }
      }}
       actions={[
